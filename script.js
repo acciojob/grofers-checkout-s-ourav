@@ -10,6 +10,7 @@ const getSum = () => {
 	// console.log(prices);
 	sum=prices.reduce((sum,value) => sum+value,0)
 	newRow= document.createElement('tr')
+	newRow.Id='ans'
 	sumVal=document.createElement('td')
 	sumVal.textContent=sum
 	newRow.appendChild(sumVal)
